@@ -1,0 +1,38 @@
+.view-100{
+  width: 100%;
+}
+
+.logo {
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+}
+
+.iconos__redes {
+  font-size: 3rem;
+}
+
+.loguito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  margin-left: 4.2rem;
+}
+
+.fondo__header {
+  background-color: #aca569;
+}
+
+.fondo__footer {
+  background-color: #c8ac75 ;
+}
+
+.fondo__nav__bar {
+  background-color: #c8ac75;
+}
+
+.img__welcome {
+  width: auto;
+}
