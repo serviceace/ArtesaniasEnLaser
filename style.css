@@ -1,23 +1,22 @@
-.view-100{
-  width: 100%;
+/***************
+ HEADER
+***************/
+.fondo__header {
+  background-color: #aca569;
 }
+/***************
+ FIN HEADER
+***************/
 
-.logo {
-  width: 1200px;
-  height: 200px;
-  margin: auto;
-}
+
+
 
 /***************
  NAV BAR
 ***************/
-
 .fondo__nav__bar {
   background-color: #c8ac75;
 }
-
-
-
 /***************
  FIN NAV BAR
 ***************/
@@ -31,13 +30,16 @@
  CONTENT
 ***************/
 
-/* TARJETAS DEL CARRUSEL */
-/* Terjata ALFA */
-.contenedor__ALFA {
-  position: relative;
+/* Saludo Bienvenida */
+  
+/* Saludo Bienvenida */
+  
+  /* TARJETAS DEL CARRUSEL */
+  /* Terjata ALFA */
+  .contenedor__ALFA {
+    position: relative;
   background-color: antiquewhite;
   width: 100%;
-  height: 500px;
   overflow: hidden;
 }
 .esquina__ALFA {
@@ -59,7 +61,6 @@
   z-index: 10;
   border-radius: 30px;
 }
-
 /* Terjata BETA */
 .contenedor__BETA {
   position: relative;
@@ -116,6 +117,9 @@
   z-index: 10;
   border-radius: 50%;
 }
+.texto__carrusel {
+  z-index: 50;
+}
 /* FIN CARRUSEL */
 
 
@@ -125,7 +129,7 @@
   position: relative;
   width: 20%;
   left: 37%;
-
+  
 }
 
 .boton__pedir {
@@ -152,7 +156,7 @@
 /* FIN ENVIOS A TODO EL PAIS */
 
 /***************
- FIN CONTENT
+FIN CONTENT
 ***************/
 
 
@@ -164,11 +168,10 @@
   width: 200px;
   height: auto;
   margin-left: 4.2rem;
+  background-color: red;
 }
 
-.fondo__header {
-  background-color: #aca569;
-}
+
 
 .img__welcome {
   width: auto;
@@ -196,21 +199,84 @@
 
 /* REDES */
 .footer__redes {
-  position: relative;
+  position: ;
 }
 
 .iconos__redes {
   font-size: 3rem;
-  margin-left: 100px;
+  margin-left: ;
   
 }
 
 div a i {
   position: relative;
-  left: 125px;
+  left: ;
 }
 
 /***************
- FIN FOOTER
+FIN FOOTER
 ***************/
 
+
+
+
+
+/* RESPONSIVE
+========================================================================= */
+
+/* Tablets en horizonal y escritorios normales
+------------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+  #welcome__imagen {
+    margin-left: -20px;
+  }
+  #welcome__mensaje {
+
+  }
+
+}
+
+/* Móviles en horizontal o tablets en vertical
+------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  #welcome__card {
+    background-image: url(./images/placeholder003.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+  }
+
+  #welcome__imagen {
+   display: none;
+  }
+
+  #welcome__mensaje {
+    color: black;
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 100%;
+    height: auto;
+    font-weight: 500;
+  }
+
+}
+
+/* Móviles en vertical
+------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  #welcome__card {
+    height: auto;
+  }
+
+  #welcome__imagen {
+    display: none;
+  }
+
+  #welcome__texto {
+    padding-bottom: 0px;
+    font-size: 1px;
+  }
+
+  #welcome__mensaje {
+    
+  }
+}

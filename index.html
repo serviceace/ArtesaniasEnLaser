@@ -10,16 +10,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Artesanias en Laser</title>
 </head>
-<body class="container-fluid view-100">
-
-
-
+<body>
     <!-----------------------
       Contenido del HEADER
     ----------------------->
-    <header class="row fondo__header d-flex p-2">
-      <img class="logo" src="./images/banner__placeholder.png" alt="placeholder">
-    </header>
+    <div class="container-fluid">
+      <header class="row fondo__header d-flex p-2">
+        <img class="logo" src="./images/banner__placeholder.png" alt="placeholder">
+      </header>
+    </div>
     <!-----------------------
       FIN Contenido del HEADER
     ----------------------->
@@ -28,6 +27,9 @@
     <!-----------------------
       Contenido del NAV BAR
     ----------------------->
+    <div class="container-fluid">
+
+    
     <div class="row">
     <nav class="navbar navbar-expand-lg navbar-light fondo__nav__bar">
       <div class="container">
@@ -74,6 +76,7 @@
       </div>
     </nav>
     </div>
+  </div>
     <!-----------------------
       FIN Contenido del NAV BAR
     ----------------------->
@@ -83,16 +86,16 @@
       Contenido del CONTENT
     ----------------------->
     <!-- CONTENT saludo bienvenida -->
-    <article>
-      <div class="card m-3">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-5 p-4">
+    <article class="container-fluid">
+      <div id="welcome__card" class="card m-3">
+        <div  class="row d-flex justify-content-center align-items-center">
+          <div id="welcome__imagen" class="col-5 p-4 ps-0">
             <img src="./images/placeholder003.jpg" alt="" class="img-fluid rounded-start img__welcome rounded-circle">
           </div>
-          <div class="col-6 p-3">
-            <h2 class="card-title">Bienvenidos!</h2>
-            <p class="card-text text-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quo nesciunt autem debitis ducimus illum nemo vitae, perspiciatis cupiditate commodi beatae dolores delectus labore quidem quod doloremque corrupti aperiam voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in atque necessitatibus vitae eos, quas quibusdam voluptates tempora ducimus deleniti quia qui repudiandae quos laboriosam rerum temporibus, tempore sequi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem perspiciatis impedit, expedita vel error nesciunt illum omnis quisquam, consectetur numquam, tempore minima necessitatibus magnam repudiandae id accusantium harum. Ea, at! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus neque dolorem, in eveniet, ea illo possimus explicabo quos deserunt nemo odit quasi velit accusamus sint. Deserunt esse fuga consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laudantium, aut recusandae numquam odit deserunt, totam mollitia magni enim sunt harum veniam beatae voluptas, consequuntur architecto sapiente porro perferendis molestias.
+          <div id="welcome__mensaje" class="col-6 p-3">
+            <h2 class="card-title text-center fs-1 mb-5">Bienvenido!</h2>
+            <p id="welcome__texto" class="card-text text-center fs-3">
+              Adéntrate en nuestro mundo de cortes láser en madera y descubre la magia de los nuestros artículos regionales. Explora nuestro catálogo y déjate cautivar por la belleza y calidad de nuestras piezas. Sumérgete en una experiencia única y encuentra el regalo perfecto para vos o tus seres queridos.
             </p>
           </div>
         </div>
@@ -100,31 +103,31 @@
     </article>
     <!-- CONTENT saludo bienvenida -->
 
-    <!-- CONTENT carrusel con mas vendidos -->
-    <article>
+    <!-- CONTENT carrusel -->
+    <article class="container-fluid">
       
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           
           <div class="carousel-item active contenedor__ALFA">
+            <p class="texto__carrusel">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat id beatae reiciendis expedita dolores voluptatum omnis doloribus velit laborum nam at, quasi itaque tempore numquam laboriosam laudantium tenetur amet. Perferendis.</p>
             <h3>Texto prueba</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat id beatae reiciendis expedita dolores voluptatum omnis doloribus velit laborum nam at, quasi itaque tempore numquam laboriosam laudantium tenetur amet. Perferendis.</p>
             <img src="./images/placeholder002.jpg" alt="" class="dibujo__carrusel__ALFA">
             <div class="esquina__ALFA">
             </div>
           </div>
           
           <div class="carousel-item contenedor__BETA">
+            <p class="texto__carrusel">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat id beatae reiciendis expedita dolores voluptatum omnis doloribus velit laborum nam at, quasi itaque tempore numquam laboriosam laudantium tenetur amet. Perferendis.</p>
             <h3>Texto prueba</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat id beatae reiciendis expedita dolores voluptatum omnis doloribus velit laborum nam at, quasi itaque tempore numquam laboriosam laudantium tenetur amet. Perferendis.</p>
             <div class="esquina__BETA">
               <img src="./images/placeholder003.jpg" alt="" class="dibujo__carrusel__BETA">
             </div>
           </div>
           
           <div class="carousel-item contenedor__GAMMA">
+            <p class="texto__carrusel">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat id beatae reiciendis expedita dolores voluptatum omnis doloribus velit laborum nam at, quasi itaque tempore numquam laboriosam laudantium tenetur amet. Perferendis.</p>
             <h3>Texto prueba</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat id beatae reiciendis expedita dolores voluptatum omnis doloribus velit laborum nam at, quasi itaque tempore numquam laboriosam laudantium tenetur amet. Perferendis.</p>
             <img src="./images/placeholder004.jpg" alt="" class="dibujo__carrusel__GAMMA">
             <div class="esquina__GAMMA">
             </div>
@@ -138,7 +141,7 @@
 
 
     <!-- CONTENT los mas nuevos -->
-    <article>
+    <article class="container-fluid">
       <div class="card m-3 border border-0">
         
         <div class="row d-flex justify-content-center align-items-center">
@@ -196,7 +199,7 @@
     <!-- CONTENT los mas nuevos -->
 
     <!-- CONTENT Envios a todo el pais -->
-    <article>
+    <article class="container-fluid">
       <div class="card m-3">
         <div class="row d-flex justify-content-center align-items-center">
           
@@ -228,9 +231,10 @@
     <!-----------------------
       Contenido del FOOTER
     ----------------------->
-    <footer class="row fondo__footer">
-
-      <div class="col-4 p-5">
+    <footer class="container-fluid">
+      <div class="row fondo__footer d-flex">
+            
+      <div class="col-4">
         <p class="h6">Información:</p>
         <ul>
           <li>Contactanos</li>
@@ -239,25 +243,25 @@
         </ul>
       </div>
             
-     <div class="col-4 p-3">
+      <div class="col-4">
         <img class="loguito rounded-circle" src="./images/placeholder001.jpg" alt="">
       </div>
 
-      <div class="col-4 p-5">
+      <div class="col-4">
         <p class="h6 text-center footer__redes">Redes Sociales</p>
           <a><i class="m-3 iconos__redes fa-brands fa-square-facebook"></i></a>
           <a><i class="m-3 iconos__redes fa-brands fa-instagram"></i></a>
           <a><i class="m-3 iconos__redes fa-brands fa-square-whatsapp"></i></a>
       </div>
-    </div>
 
-    </footer>
+    </div>
+</footer>
     <!-----------------------
       FIN Contenido del FOOTER
     ----------------------->
 
 
-
+ 
     
 </body>
 </html>
