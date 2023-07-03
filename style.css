@@ -144,14 +144,13 @@
 
 /* ENVIOS A TODO EL PAIS */
 
-#titulo__Haz-tu-pedido {
+#envios__imagen-mapa{
   position: relative;
-  top: -100px;
+  left: 15%;
 }
 
-#boton__preguntas {
-  margin-top: 100px;
-  margin-left: 35% ;
+#envios__boton-preguntas {
+  margin-left: 30%;
 }
 /* FIN ENVIOS A TODO EL PAIS */
 
@@ -161,15 +160,7 @@ FIN CONTENT
 
 
 
-.loguito {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: auto;
-  margin-left: 4.2rem;
-  background-color: red;
-}
+
 
 
 
@@ -196,6 +187,12 @@ FIN CONTENT
   background-color: #c8ac75 ;
 }
 
+/* LOGO */
+.footer__loguito {
+  width: 200px;
+  height: auto;
+  margin-left: 4.5rem;
+}
 
 /* REDES */
 .footer__redes {
@@ -227,12 +224,16 @@ FIN FOOTER
 /* Tablets en horizonal y escritorios normales
 ------------------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 1199px) {
+  
+  /* Saludo Bienvenida */
   #welcome__imagen {
     margin-left: -20px;
   }
   #welcome__mensaje {
-
   }
+
+
+  /* Footer */
 
 }
 
