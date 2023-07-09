@@ -1,3 +1,10 @@
+/*************** COLORES ****************
+#aca569
+#c8ac75
+
+************** COLORES *****************/
+
+
 /***************
  HEADER
 ***************/
@@ -26,12 +33,14 @@
 ***************/
 
 /* Saludo Bienvenida */
-  
+
 /* Saludo Bienvenida */
-  
+ 
+
+
   /* TARJETAS DEL CARRUSEL */
   /* Terjata ALFA */
-  .contenedor__ALFA {
+.contenedor__ALFA {
   position: relative;
   background-color: antiquewhite;
   width: 100%;
@@ -115,22 +124,21 @@
 .texto__carrusel {
   z-index: 50;
 }
+.fotos__carrousel {
+  width: 500px;
+}
 /* FIN CARRUSEL */
 
 
+
+
+
+
+
 /* LO MAS NUEVO */
-
-#boton__ver-mas {
-  position: relative;
-  width: 20%;
-  left: 37%;
-  
+.lo_mas_nuevo {
+  width: 18rem;
 }
-
-.boton__pedir {
-  margin-left: 35%;
-}
-
 /* FIN LO MAS NUEVO */
 
 
@@ -138,40 +146,15 @@
 
 
 /* ENVIOS A TODO EL PAIS */
-
-#envios__imagen-mapa{
-  position: relative;
-  left: 15%;
-}
-
-#envios__boton-preguntas {
-  margin-left: 30%;
+#envios__imagen {
+  width: 100%;
+  border-radius: 15px;
 }
 /* FIN ENVIOS A TODO EL PAIS */
 
 /***************
 FIN CONTENT
 ***************/
-
-
-
-
-
-
-
-.img__welcome {
-  width: auto;
-}
-
-.lo_mas_nuevo {
-  width: 18rem;
-}
-
-.fotos__carrousel {
-  width: 500px;
-}
-
-
 
 
 
@@ -186,18 +169,11 @@ FIN CONTENT
 .footer__loguito {
   width: 200px;
   height: auto;
-  margin-left: 4.5rem;
 }
 
 /* REDES */
-.footer__redes {
-  position: ;
-}
-
 .iconos__redes {
-  font-size: 3rem;
-  margin-left: ;
-  
+  font-size: 3rem;  
 }
 
 /***************
@@ -210,94 +186,63 @@ FIN FOOTER
 
 /* RESPONSIVE
 ========================================================================= */
+/*Responsive XSM */
 
-/* Tablets en horizonal y escritorios normales
-------------------------------------------------------------------------- */
-@media (min-width: 768px) and (max-width: 1199px) {
-  
-  /* Saludo Bienvenida */
-  #welcome__imagen {
-    margin-left: -20px;
+@media (max-width: 575px) {
+  /* seccion Welcome */
+  #welcome__mensaje {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 24rem;
   }
 
-  /* Envios */
-  #envios__caja {
-    background-image: url(./images/envios_chiquito.jpg);
-    background-size: cover;
-    background-position: center center;
-    opacity: 0.9;
+  /* seccion footer */
+  #footer__loguito {
+    display: inherit;
   }
-  #envios__imagen-mapa {
+  .footer__info {
     display: none;
   }
-  #envios__titulo {
-    display: flex;
-    justify-content: center;
-    align-content:flex-start;
-    background-color: rgb(255, 255, 255, 0.6);
-    padding-bottom: 50px;
-    height: 0;
-    width: 400px;
-    border-radius: 45px;
-    border: 2px solid black ;
-    padding-top: 0px;
-    margin-left: 27%;
-  }
-
-  #envios__boton-preguntas {
-    margin-left: 37%;
-  }
-
- 
-  /* Footer */
-  
-
-/* Móviles en horizontal o tablets en vertical
-------------------------------------------------------------------------- */
-@media (max-width: 767px) {
-  #welcome__card {
-    background-image: url(./images/placeholder003.jpg);
-    background-size: cover;
-    background-position: center center;
-    border-radius: 15px;
-  }
-
-  #welcome__imagen {
-   display: none;
-  }
-
-  #welcome__mensaje {
-    color: black;
-    background-color: rgb(255, 255, 255, 0.6);
-    width: 100%;
-    height: auto;
-    font-weight: 500;
-  }
-
 }
 
-/* Móviles en vertical
-------------------------------------------------------------------------- */
-@media (max-width: 480px) {
 
-  /* Seccion Welcome */
-  #welcome__card {
-    height: auto;
+/*Responsive SM */
+
+@media (min-width: 576px) {
+  
+  /* seccion Welcome */
+  #welcome__mensaje {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 400px;
   }
-
-  #welcome__imagen {
+ 
+  /* seccion footer */
+  #footer__loguito {
     display: none;
   }
-
-  #welcome__texto {
-    padding-bottom: 0px;
-    font-size: 1px;
+  .footer__info {
+    margin-top: 0;
   }
-
-  #welcome__mensaje {
+  #footer__redes {
+    padding: 0;
     
   }
+}
 
-  /* Seccion Envios a todo el Pais */
-  
+
+/*Responsive LG */
+
+@media (min-width: 992px) {
+
+  /* seccion Welcome*/
+  #welcome__mensaje {
+    position: relative;
+    top: 0px;
+  }
+
+  /* seccion Footer*/
+  #footer__loguito {
+    display: inherit;
+  }
 }

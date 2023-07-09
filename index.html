@@ -86,15 +86,15 @@
       Contenido del CONTENT
     ----------------------->
     <!-- CONTENT saludo bienvenida -->
-    <article class="container-fluid">
-      <div id="welcome__card" class="card m-3">
-        <div  class="row d-flex justify-content-center align-items-center">
-          <div id="welcome__imagen" class="col-5 p-4 ps-0">
-            <img src="./images/placeholder003.jpg" alt="" class="img-fluid rounded-start img__welcome rounded-circle">
+    <article class="container-fluid overlay">
+      <div id="welcome__card" class="m-3 overlay">
+        <div class="row d-flex justify-content-center align-items-center overlay ">
+          <div id="welcome__imagen" class="col-12 col-sm-12 col-lg-4">
+            <img src="./images/placeholder003.jpg" alt="" class="img-fluid rounded rounded-circle img__welcome">
           </div>
-          <div id="welcome__mensaje" class="col-6 p-3">
-            <h2 class="card-title text-center fs-1 mb-5">Bienvenido!</h2>
-            <p id="welcome__texto" class="card-text text-center fs-3">
+          <div id="welcome__mensaje" class="col-12 col-sm-12 col-lg-7">
+            <h2 class="card-title text-center fs-1">Bienvenido!</h2>
+            <p id="welcome__texto" class="text-center fs-5">
               Adéntrate en nuestro mundo de cortes láser en madera y descubre la magia de los nuestros artículos regionales. Explora nuestro catálogo y déjate cautivar por la belleza y calidad de nuestras piezas. Sumérgete en una experiencia única y encuentra el regalo perfecto para vos o tus seres queridos.
             </p>
           </div>
@@ -144,53 +144,53 @@
     <article class="container-fluid">
       <div class="card m-3 border border-0">
         
-        <div class="row d-flex justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center align-items-center gap-3">
           
           
           <h2 class="card-title text-center mt-3">LOS MAS NUEVOS</h2>
        
-          <div class="card lo_mas_nuevo m-2">
+          <div class="card lo_mas_nuevo">
             <img src="./images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Adornos Navideños para mesa</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               <h3 class="card-title text-center">$999.99</h3>
-              <a href="#" class="btn btn-primary btn-lg boton__pedir">Pedir</a>
+              <a href="#" class="btn btn-primary btn-lg d-flex justify-content-center">Pedir</a>
             </div>
           </div>
 
-          <div class="card lo_mas_nuevo m-2">
+          <div class="card lo_mas_nuevo">
             <img src="./images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Adornos Navideños para mesa</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               <h3 class="card-title text-center">$999.99</h3>
-              <a href="#" class="btn btn-primary btn-lg boton__pedir">Pedir</a>
+              <a href="#" class="btn btn-primary btn-lg d-flex justify-content-center">Pedir</a>
             </div>
           </div>
 
-          <div class="card lo_mas_nuevo m-2">
+          <div class="card lo_mas_nuevo">
             <img src="./images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Adornos Navideños para mesa</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               <h3 class="card-title text-center">$999.99</h3>
-              <a href="#" class="btn btn-primary btn-lg boton__pedir">Pedir</a>
+              <a href="#" class="btn btn-primary btn-lg d-flex justify-content-center">Pedir</a>
             </div>
           </div>
 
-          <div class="card lo_mas_nuevo m-2">
+          <div class="card lo_mas_nuevo">
             <img src="./images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Adornos Navideños para mesa</h5>
               <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               <h3 class="card-title text-center">$999.99</h3>
-              <a href="#" class="btn btn-primary btn-lg boton__pedir">Pedir</a>
+              <a href="#" class="btn btn-primary btn-lg d-flex justify-content-center">Pedir</a>
             </div>
           </div>
 
-          <div>
-            <button id="boton__ver-mas" class="btn btn-secondary m-5 p-3">VER MAS!</button>
+          <div class="d-flex justify-content-center">
+            <button id="boton__ver-mas" class="btn btn-secondary btn-lg m-5 p-4">VER MAS PRODUCTOS!</button>
           </div>
           
         </div>
@@ -199,24 +199,20 @@
     <!-- CONTENT los mas nuevos -->
 
     <!-- CONTENT Envios a todo el pais -->
-    <article class="container border border-1 rounded-4 border-dark mt-1 mb-3">
-      <div id="envios__caja" class="row">
+    <article class="container mb-3">
+      <div id="envios__caja" class="row d-flex align-items-center justify-content-center">
 
-        <div class="col-12 col-xl-6">
-          <img id="envios__imagen-mapa" src="./images/mapa_argentina_envios.jpg" alt="" class="">
-        </div>
+          <div class="col-12 col-sm-12 col-lg-12">
+              <img id="envios__imagen" src="./images/Envios__horizontal.png" alt="" class="">
+          </div>
 
-        <div class="col-12 col-xl-6 p-3">
-          <h2 id="envios__titulo" class="text-center fs-1">Hace tu pedido!</h2>
-            <p class="text-center pt-5 fs-5">
-              Luego de realizada tu compra, <span>TU PEDIDO LLEGA DENTRO DE 5 A 10 DÍAS</span> habiles. Lo recibís en tu domicilio o en la sucursal de Correo Argentino más cercana.
-            </p>
-            <p class="text-center pt-5">
-              Si tenes dudas ingresa a este link o envianos un mensajito !
-            </p>
+          <p class="text-center mt-4">
+            Si tenes dudas ingresa a este link o envianos un mensaje!
+          </p>
 
-            <button id="envios__boton-preguntas" class="btn btn-primary btn-lg mt-5">Preguntas Frecuentes</button>
-        </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <button id="envios__boton-preguntas" class="btn btn-primary btn-lg">Preguntas Frecuentes</button>
+          </div>
 
       </div>
    
@@ -234,20 +230,20 @@
     <footer class="container-fluid fondo__footer">
       <div class="row">
         
-        <div class="col-12 col-xl-4 col-sm-4">
-          <p class="h6 text-center p-3 pt-5">Información:</p>
-          <ul class="ms-3">
+        <div class="col-1 col-sm-5 col-lg-4 pt-lg-5 pt-5 pt-sm-2">
+          <p class="h6 text-center footer__info">Información:</p>
+          <ul class="footer__info">
             <li>Contactanos</li>
             <li>Preguntas Frecuentes</li>
             <li>Términos y Condiciones</li>
           </ul>
         </div>
         
-        <div class="col-12 col-xl-4 p-3 col-sm-4">
-          <img class="footer__loguito rounded-circle" src="./images/placeholder001.jpg" alt="">
+        <div class="col-5 col-sm-1 col-lg-4 p-3 d-flex justify-content-center">
+          <img id="footer__loguito" class="footer__loguito rounded-circle" src="./images/placeholder001.jpg" alt="">
         </div>
         
-        <div class="col-12 col-xl-4 col-sm-4 p-3 pt-5 text-center">
+        <div id="footer__redes" class="col-5 col-sm-5 col-lg-4 text-center pt-lg-5 pt-3 pt-sm-0 pt-sm-2">
           <p class="h6 text-center">Redes Sociales</p>
             <a><i class="m-3 iconos__redes fa-brands fa-square-facebook"></i></a>
             <a><i class="m-3 iconos__redes fa-brands fa-instagram"></i></a>
