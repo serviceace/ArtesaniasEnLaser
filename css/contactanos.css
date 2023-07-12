@@ -1,0 +1,21 @@
+.contactanos__redes {
+    position: relative;
+    bottom: 14%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.instagram {
+    color: #D43089;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.facebook {
+    color:  #3b5998;
+}
