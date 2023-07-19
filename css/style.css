@@ -190,63 +190,84 @@ FIN FOOTER
 
 /* RESPONSIVE
 ========================================================================= */
-/*Responsive XSM */
 
-@media (max-width: 575px) {
-  /* seccion Welcome */
-  #welcome__mensaje {
+/* Media Queris */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+   /* seccion Welcome */
+   #welcome__mensaje {
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 24rem;
-  }
-
-  /* seccion footer */
-  #footer__loguito {
-    display: inherit;
-  }
-  .footer__info {
-    display: none;
-  }
-}
-
-
-/*Responsive SM */
-
-@media (min-width: 576px) {
+   }
   
-  /* seccion Welcome */
-  #welcome__mensaje {
-    background-color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    top: 400px;
-  }
- 
-  /* seccion footer */
-  #footer__loguito {
+   /* seccion footer */
+   #footer__loguito {
     display: none;
-  }
-  .footer__info {
-    margin-top: 0;
-  }
-  #footer__redes {
-    padding: 0;
-    
-  }
+   }
+   .footer__info {
+   }
+
+   #footer__info__Block {
+    margin-top: 1rem;
+    margin-left: auto;
+   }
+
+   #footer__redes {
+    margin-top: 1rem;
+    margin-right: auto;
+   }
 }
 
 
-/*Responsive LG */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
-@media (min-width: 992px) {
+/* seccion Welcome */
+#welcome__mensaje {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 400px;
+ }
 
-  /* seccion Welcome*/
-  #welcome__mensaje {
-    position: relative;
-    top: 0px;
-  }
+ /* seccion footer */
+ #footer__loguito {
+  display: none;
+ }
+ .footer__info {
+  margin-top: 0;
+ }
+ #footer__redes {
+  padding: 0; 
+ }
 
-  /* seccion Footer*/
-  #footer__loguito {
-    display: inherit;
-  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+   /* seccion Welcome*/
+   #welcome__mensaje {
+   position: relative;
+   top: 0px;
+    }
+  
+   /* seccion Footer*/
+   #footer__loguito {
+   display: inherit;
+   }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
 }
