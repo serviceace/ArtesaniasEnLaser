@@ -10,6 +10,8 @@
 ***************/
 .fondo__header {
   background-color: #aca569;
+  height: 250px;
+  overflow: hidden;
 }
 /***************
  FIN HEADER
@@ -149,9 +151,11 @@
 
 /* ENVIOS A TODO EL PAIS */
 #envios__imagen {
-  width: 100%;
+  width: 70%;
   border-radius: 15px;
 }
+
+
 /* FIN ENVIOS A TODO EL PAIS */
 
 /***************
@@ -164,19 +168,30 @@ FIN CONTENT
  FOOTER
 ***************/
 .fondo__footer {
-  background-color: #c8ac75 ;
+  background-color: linear-gradient(rgba(255, 255, 255, 0.1), rgba(250, 235, 215, 1.0));
+  background-image: url('../images/footer__wave.svg');
+  background-size: cover;
+  background-position: center center;
+  
 }
 
 /* LOGO */
 .footer__loguito {
   width: 200px;
   height: auto;
+
 }
 
 /* REDES */
 .iconos__redes {
   font-size: 3rem;  
 }
+
+/* INFO */
+#footer__info-Block {
+
+}
+
 
 
 
