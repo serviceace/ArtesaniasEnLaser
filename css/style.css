@@ -42,62 +42,161 @@
 
   /* TARJETAS DEL CARRUSEL */
   /* Terjata ALFA */
-.contenedor__ALFA {
-  position: relative;
-  background-color: antiquewhite;
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-}
-.esquina__ALFA {
-  position: absolute;
-  right: -50px;
-  top: 100px;
-  background-color: rgb(225, 191, 148);
-  width: 800px;
-  height: 800px;
-  transform: rotate(45deg);
-  z-index: 5;
-}
-.dibujo__carrusel__ALFA {
-  width: 350px;
-  height: 350px;
-  position: relative;
-  top: 80px;
-  right: 0px;
-  z-index: 10;
-  border-radius: 30px;
-  transform: rotate(-45deg);
-}
+  #carrusel__ejemploA{
+    background-color: #cea98e;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  #ejemploA__foto{
+    width: 80%;
+    border-radius: 50%;
+    position: relative;
+    right: -600px;
+    top: -20rem;
+  }
+  
+  #ejemploA__texto-UNO{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+  }
+  
+  #ejemploA__texto-DOS{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .ejemploA__texto-burbujas{
+    border: solid 3px white;
+    border-radius: 50px;
+    width: 14rem;
+    height: auto;
+  }
+  #ejemploA__texto-TRES{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 380px;
+  }
+  #ejemploA__texto-CUATRO{
+    background-color: white;
+    color: #cea98e;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 140px;
+  }
+  #ejemploA__texto-CINCO{
+    position: relative;
+    top: 400px;
+    left: 120px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 3px 1px white;
+  }
 /* Terjata BETA */
-.contenedor__BETA {
-  position: relative;
-  background-color: rgb(177, 167, 167);
+#carrusel__ejemploB{
+  background-color: #cea98e;
+  background-image: url(../images/placeholder002.jpg);
   width: 100%;
-  height: 500px;
+  height: 450px;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center center;
 }
-.esquina__BETA {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background-color: #c8ac75;
-  width: 800px;
-  height: 800px;
-  transform: rotate(45deg);
-  z-index: 5;
-  overflow: hidden;
+
+#ejemploB__foto{
+ width: 100%;
+ z-index: 5;
 }
-.dibujo__carrusel__BETA {
-  width: 800px;
-  height: 800px;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  z-index: 10;
-  border-radius: 30px;
-  transform: rotate(-45deg);
+
+#ejemploB__mitad--UNO{
+z-index: 10;
+width: 50%;
+height: 150%;
+position: relative;
+top: -80px;
+left: -250px;
+transform: rotate(10deg);
+background-image: radial-gradient(circle at center bottom, #ffffff, #a6ccf0);
+
+ 
 }
+#ejemploB__texto-UNO{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+    z-index: 15;
+  }
+  
+  #ejemploB__texto-DOS{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 60px;
+    color: gray;
+    font-weight: 600;
+    z-index: 15;
+    text-shadow: 3px 3px black;
+  }
+
+.ejemploB__texto-burbujas{
+    border: solid 3px white;
+    border-radius: 50px;
+    width: 14rem;
+    height: auto;
+  }
+  #ejemploB__texto-TRES{
+    color: gray;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 380px;
+    z-index: 15;
+  }
+  #ejemploB__texto-CUATRO{
+    background-color: gray;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 13px;
+    position: absolute;
+    top: 230px;
+    left: 140px;
+    z-index: 15;
+  }
+  #ejemploB__texto-CINCO{
+    position: relative;
+    top: 390px;
+    left: -500px;
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+    text-shadow: 3px 1px black;
+    z-index: 15;
+  }
 /* Terjata GAMMA */
 .contenedor__GAMMA {
   position: relative;
