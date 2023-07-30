@@ -1,0 +1,240 @@
+  /* TARJETAS DEL CARRUSEL */
+  /* Terjata ALFA */
+  #carrusel__ejemploA{
+    background-color: #cea98e;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+  }
+  #ejemploA__foto{
+    width: 80%;
+    border-radius: 50%;
+    position: absolute;
+    right: -400px;
+    top: -20rem;
+    z-index: 5;
+  }
+  #ejemploA__texto-UNO{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+  }
+  #ejemploA__texto-DOS{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 3px 3px black;
+  }
+  .ejemploA__texto-burbujas{
+    border: solid 3px white;
+    border-radius: 50px;
+    width: 14rem;
+    height: auto;
+  }
+  #ejemploA__texto-TRES{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+  }
+  #ejemploA__texto-CUATRO{
+    background-color: white;
+    color: #cea98e;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 350px;
+  }
+  #ejemploA__texto-CINCO{
+    position: relative;
+    top: 400px;
+    left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 3px 1px white;
+  }
+/* Terjata BETA */
+#carrusel__ejemploB{
+  background-color: #cea98e;
+  background-image: url(../images/placeholder002.jpg);
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#ejemploB__foto{
+ width: 100%;
+ z-index: 5;
+}
+#ejemploB__mitad--UNO{
+z-index: 10;
+width: 50%;
+height: 150%;
+position: relative;
+top: -80px;
+left: -40px;
+transform: rotate(10deg);
+background-image: radial-gradient(circle at center bottom, #ffffff, #a6ccf0);
+
+ 
+}
+#ejemploB__texto-UNO{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+    z-index: 15;
+}
+#ejemploB__texto-DOS{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    font-size: 60px;
+    color: gray;
+    font-weight: 600;
+    z-index: 15;
+    text-shadow: 3px 3px black;
+}
+.ejemploB__texto-burbujas{
+    border: solid 3px white;
+    border-radius: 50px;
+    width: 14rem;
+    height: auto;
+}
+  #ejemploB__texto-TRES{
+    color: gray;
+    background-color: #fff;
+    border: 1px gray solid;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    z-index: 15;
+}
+#ejemploB__texto-CUATRO{
+    background-color: gray;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    left: 320px;
+    z-index: 15;
+}
+#ejemploB__texto-CINCO{
+    position: absolute;
+    top: 390px;
+    left: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+    text-shadow: 3px 1px black;
+    z-index: 15;
+}
+/* Terjata GAMMA */
+#carrusel__ejemploC{
+  background-color: #cea98e;
+  background-image: url(../images/placeholder004.jpg);
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#ejemploC__foto{
+ width: 100%;
+ z-index: 5;
+}
+#ejemploC__mitad--UNO{
+z-index: 10;
+width: 50%;
+height: 150%;
+position: relative;
+top: -80px;
+right: -750px;
+transform: rotate(10deg);
+background-image: radial-gradient(circle at center bottom, #ffffff, #e6a6f0); 
+}
+#ejemploC__texto-UNO{
+    position: absolute;
+    top: 30px;
+    right: 250px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+    z-index: 15;
+} 
+#ejemploC__texto-DOS{
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    font-size: 60px;
+    color: gray;
+    font-weight: 600;
+    z-index: 15;
+    text-shadow: 3px 3px black;
+}
+.ejemploC__texto-burbujas{
+    border: solid 3px white;
+    border-radius: 50px;
+    width: 15rem;
+    height: auto;
+}
+#ejemploC__texto-TRES{
+    color: gray;
+    background-color: #fff;
+    border: 1px gray solid;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 230px;
+    right: 50px;
+    z-index: 15;
+}
+#ejemploC__texto-CUATRO{
+    background-color: gray;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 13px;
+    position: absolute;
+    top: 230px;
+    right: 300px;
+    z-index: 15;
+}
+#ejemploC__texto-CINCO{
+    position: relative;
+    top: 390px;
+    right: -90px;
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+    text-shadow: 2px 1px black;
+    z-index: 15;
+}
+/* FIN CARRUSEL */

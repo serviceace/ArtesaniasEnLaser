@@ -1,0 +1,23 @@
+#ejemploC__texto-UNO{
+      top: 150px;
+      right: 300px;
+      transform: rotate(-10deg);
+} 
+#ejemploC__texto-DOS{
+      top: 200px;
+      right: 190px;
+      transform: rotate(-10deg);
+}
+#ejemploC__texto-TRES{
+    top: 290px;
+    right: 140px;
+    transform: rotate(-10deg);
+}
+#ejemploC__texto-CUATRO{
+    top: 330px;
+    right: 390px;
+    transform: rotate(-10deg);
+}
+#ejemploC__texto-CINCO{
+   right: -90px;
+}
