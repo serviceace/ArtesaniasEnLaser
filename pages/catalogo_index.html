@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ac5241a91.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Artesanias en Laser</title>
+</head>
+
+<body>
+    <!-----------------------
+      Contenido del HEADER
+    ----------------------->
+    <div class="container-fluid">
+      <header class="row fondo__header d-flex p-2">
+        <img class="logo" src="../images/banner__placeholder.png" alt="placeholder">
+      </header>
+    </div>
+    <!-----------------------
+      FIN Contenido del HEADER
+    ----------------------->
+
+
+    <!-----------------------
+      Contenido del NAV BAR
+    ----------------------->
+    <nav class="container-fluid sticky-top">
+
+    
+      <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light fondo__nav__bar">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CATALOGO
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Papeleria</a></li>
+                  <li><a class="dropdown-item" href="#">Mandalas</a></li>
+                  <li><a class="dropdown-item" href="#">Marcos</a></li>
+                  <li><a class="dropdown-item" href="#">Cajas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pages/catalogo_index.html">Ver Todos</a></li>
+                </ul>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbar__info" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  INFORMACION
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../pages/about__us.html">Quienes Somos</a></li>
+                  <li><a class="dropdown-item" href="../pages/preguntas__frecuentes.html">Preguntas Frecuentes</a></li>
+                  <li><a class="dropdown-item" href="../pages/contactanos.html">Contáctanos</a></li>
+                </ul>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbar__info" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BOTON LOCO
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../pages/promociones.html">Promociones</a></li>
+                  <li><a class="dropdown-item" href="../pages/regionaleros.html">Regionaleros</a></li>
+                  <li><a class="dropdown-item" href="../pages/eventos.html">Eventos</a></li>
+                </ul>
+              </li>
+  
+          </ul>
+  
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" disabled type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-dark" disabled type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      </div>
+    </nav>
+    <!-----------------------
+      FIN Contenido del NAV BAR
+    ----------------------->
+
+
+    <!-----------------------
+      Contenido del CONTENT
+    ----------------------->
+    
+    <section class="container mt-5 mb-5">
+        <div>
+            <p class="text-center fs-1">Catalogo</p>
+            <p class="text-center fs-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quo facere beatae dolores deserunt veritatis numquam soluta libero magnam sint alias, nemo eveniet, dolor voluptatem eum placeat animi voluptate ea!
+            </p>
+        </div>
+
+
+
+        <!-- Navegacion del catalogo en texto -->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header ">
+                <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__UNO" aria-expanded="false" aria-controls="categorias__UNO">
+                  Artículos de Oficina / Papelería
+                </button>
+              </h2>
+              <div id="categorias__UNO" class="accordion-collapse collapse show">
+                <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Organizadores</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Calendarios</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Lapiceros</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Artículos de medición</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Agendas</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button  fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DOS" aria-expanded="false" aria-controls="categorias__DOS">
+                    Artículos para la cocina
+                </button>
+              </h2>
+              <div id="categorias__DOS" class="accordion-collapse collapse">
+                <div class="accordion-body d-flex justify-content-evenly">
+                        <span class="badge rounded-pill text-bg-primary fs-5">Porta Vinos</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Servilleteros</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Porta Cervezas</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Posa vasos/platos</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Individuales</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Hueveras</span>
+                  </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__TRES" aria-expanded="false" aria-controls="categorias__TRES">
+                    Mecanismos
+                </button>
+              </h2>
+              <div id="categorias__TRES" class="accordion-collapse collapse">
+                <div class="accordion-body d-flex justify-content-evenly">
+                        <span class="badge rounded-pill text-bg-primary fs-5">Relojes</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Cucú</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Corte con Doblez</span>
+                        <span class="badge rounded-pill text-bg-primary fs-5">Bizagras</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__CUATRO" aria-expanded="false" aria-controls="categorias__CUATRO">
+                    Casas pequeñas y Muebles
+                  </button>
+                </h2>
+                <div id="categorias__CUATRO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Castillos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Muebles de muñecas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Organizadores</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Casa de muñecas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Muebles esquineros</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__CINCO" aria-expanded="false" aria-controls="categorias__CINCO">
+                    Exhibidores
+                  </button>
+                </h2>
+                <div id="categorias__CINCO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">De Mesa</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">De Acrílicos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">De Esmaltes</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">De Labiales</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__SEIS" aria-expanded="false" aria-controls="categorias__SEIS">
+                    Figuras geométricas
+                  </button>
+                </h2>
+                <div id="categorias__SEIS" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                      <span class="badge rounded-pill text-bg-primary fs-5">Tramas Várias</span>
+                      <span class="badge rounded-pill text-bg-primary fs-5">Corazón</span>
+                      <span class="badge rounded-pill text-bg-primary fs-5">Porta Sahumerios</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__SIETE" aria-expanded="false" aria-controls="categorias__SIETE">
+                    Lámparas y Relojes
+                  </button>
+                </h2>
+                <div id="categorias__SIETE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">En Vinilo</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">En MDF</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Para Colgar</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Sobremesa</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__OCHO" aria-expanded="false" aria-controls="categorias__OCHO">
+                    Letras y Números
+                  </button>
+                </h2>
+                <div id="categorias__OCHO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Corporeo</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Frases</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cajas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Letras en Cajones</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Para Iluminar</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__NUEVE" aria-expanded="false" aria-controls="categorias__NUEVE">
+                    Mandalas y Atrapa sueños
+                  </button>
+                </h2>
+                <div id="categorias__NUEVE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Mandalas Calados</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Mandalas Grabados</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Chacras</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DIEZ" aria-expanded="false" aria-controls="categorias__DIEZ">
+                    Mapas
+                  </button>
+                </h2>
+                <div id="categorias__DIEZ" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">De Países</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Mapamundis</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Globos Terráqueos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Ciudades</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__ONCE" aria-expanded="false" aria-controls="categorias__ONCE">
+                    Mascarillas y cubrebocas
+                  </button>
+                </h2>
+                <div id="categorias__ONCE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Soportes</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Dispensador</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Viceras</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DOCE" aria-expanded="false" aria-controls="categorias__DOCE">
+                    Naturaleza
+                  </button>
+                </h2>
+                <div id="categorias__DOCE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Arbol de la vida</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Hojas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Imágenes Humanas</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__TRECE" aria-expanded="false" aria-controls="categorias__TRECE">
+                    Navidad
+                  </button>
+                </h2>
+                <div id="categorias__TRECE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Pinos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Arbolitos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Borlas</span>                    
+                    <span class="badge rounded-pill text-bg-primary fs-5">Adornos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Santa Claus</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Pecebres</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__CATORCE" aria-expanded="false" aria-controls="categorias__CATORCE">
+                    Pascuas
+                  </button>
+                </h2>
+                <div id="categorias__CATORCE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Conejos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Porta Huevos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Sorpresas</span>                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__QUINCE" aria-expanded="false" aria-controls="categorias__QUINCE">
+                    Portarretratos y Marcos
+                  </button>
+                </h2>
+                <div id="categorias__QUINCE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Marcos Ovalos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Portaretratos Calados</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cuadros de Decoración</span>                     
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DIECISEIS" aria-expanded="false" aria-controls="categorias__DIECISEIS">
+                    Repisas y Estantes
+                  </button>
+                </h2>
+                <div id="categorias__DIECISEIS" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Exibidores de Tiendas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cajoneras</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Zapateros</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cajas apilables</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DIECISIETE" aria-expanded="false" aria-controls="categorias__DIECISIETE">
+                    Transportes
+                  </button>
+                </h2>
+                <div id="categorias__DIECISIETE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Autos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Barcos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Aviones</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DIECIOCHO" aria-expanded="false" aria-controls="categorias__DIECIOCHO">
+                    Amor y Amistad
+                  </button>
+                </h2>
+                <div id="categorias__DIECIOCHO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caja Corazón</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Calados Enamorados</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Mates del día del Amigo</span>                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__DIECINUEVE" aria-expanded="false" aria-controls="categorias__DIECINUEVE">
+                    Animales
+                  </button>
+                </h2>
+                <div id="categorias__DIECINUEVE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Carrusel</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caja Oso</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Perchas de Animales</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caja Unicornio</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Dinosaurios para Armar</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTE" aria-expanded="false" aria-controls="categorias__VEINTE">
+                    Cajas
+                  </button>
+                </h2>
+                <div id="categorias__VEINTE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Verdulera</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Provisiones</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caja para Té</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caja M regalo para mamá</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caja Combi</span>                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTIUNO" aria-expanded="false" aria-controls="categorias__VEINTIUNO">
+                    Acontecimientos / Dia de...
+                  </button>
+                </h2>
+                <div id="categorias__VEINTIUNO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">del Padre</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">las Madres</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cumpleaños</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Graduación</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Reyes Magos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Halloween</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Nacimiento</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Bautismo</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Comunión</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Casamiento</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTIDOS" aria-expanded="false" aria-controls="categorias__VEINTIDOS">
+                    Juguetes
+                  </button>
+                </h2>
+                <div id="categorias__VEINTIDOS" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Pistas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Armas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Puzzles</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Didácticos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Ajedrez/Damas</span>              
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTITRES" aria-expanded="false" aria-controls="categorias__VEINTITRES">
+                    Invitaciones y Sobres
+                  </button>
+                </h2>
+                <div id="categorias__VEINTITRES" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Invitaciones Caladas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Sobres Calados</span>                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTICUATRO" aria-expanded="false" aria-controls="categorias__VEINTICUATRO">
+                    Decorativos
+                  </button>
+                </h2>
+                <div id="categorias__VEINTICUATRO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Candelabros</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Centros de Mesa</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cuadros Milticapa</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTICINCO" aria-expanded="false" aria-controls="categorias__VEINTICINCO">
+                    Juegos de mesa
+                  </button>
+                </h2>
+                <div id="categorias__VEINTICINCO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Oca</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Tablero de Baseball</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Domino</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Destreza</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTISEIS" aria-expanded="false" aria-controls="categorias__VEINTISEIS">
+                    Religiosos
+                  </button>
+                </h2>
+                <div id="categorias__VEINTISEIS" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Medalla de Santos</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Budas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cruz de Padre Nuestro</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Caliz</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cristos</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTISIETE" aria-expanded="false" aria-controls="categorias__VEINTISIETE">
+                    Candybar
+                  </button>
+                </h2>
+                <div id="categorias__VEINTISIETE" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Carrito Pochoclero</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Carrito Caramelero</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Noria / Vuelta la mundo</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Trubuna</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Tuppers</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Portatortas</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Cupcakes</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#categorias__VEINTIOCHO" aria-expanded="false" aria-controls="categorias__VEINTIOCHO">
+                    Regionaleros
+                  </button>
+                </h2>
+                <div id="categorias__VEINTIOCHO" class="accordion-collapse collapse">
+                  <div class="accordion-body d-flex justify-content-evenly">
+                    <span class="badge rounded-pill text-bg-primary fs-5">Mates</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Imánes</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Llaveros</span>
+                    <span class="badge rounded-pill text-bg-primary fs-5">Figruas</span>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+        <!-- FIN Navegacion del catalogo en texto -->
+ 
+        
+
+
+ <!-- PRODUCTO artículos mas nuevos -->
+ <article class="container-fluid">
+    <div class="card m-3 border border-0">
+      
+      <div class="row d-flex justify-content-center align-items-center gap-3">
+        
+        
+        <h2 class="card-title text-center mt-3">Los artículos mas nuevos</h2>
+     
+        <div class="card lo_mas_nuevo bg-warning bg-opacity-10 border border-warning">
+          <img src="../images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Adornos Navideños para mesa</h5>
+            <h3 class="card-title text-center">$999.99</h3>
+            <a href="../pages/plantilla__producto.html" class="btn btn-secondary btn-lg d-flex justify-content-center">Pedir</a>
+          </div>
+        </div>
+
+        <div class="card lo_mas_nuevo bg-warning bg-opacity-10 border border-warning">
+          <img src="../images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Adornos Navideños para mesa</h5>
+            <h3 class="card-title text-center">$999.99</h3>
+            <a href="../pages/plantilla__producto.html" class="btn btn-secondary btn-lg d-flex justify-content-center">Pedir</a>
+          </div>
+        </div>
+
+        <div class="card lo_mas_nuevo bg-warning bg-opacity-10 border border-warning">
+          <img src="../images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Adornos Navideños para mesa</h5>
+            <h3 class="card-title text-center">$999.99</h3>
+            <a href="../pages/plantilla__producto.html" class="btn btn-secondary btn-lg d-flex justify-content-center">Pedir</a>
+          </div>
+        </div>
+
+        <div class="card lo_mas_nuevo bg-warning bg-opacity-10 border border-warning">
+          <img src="../images/placeholder004.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Adornos Navideños para mesa</h5>
+            <h3 class="card-title text-center">$999.99</h3>
+            <a href="../pages/plantilla__producto.html" class="btn btn-secondary btn-lg d-flex justify-content-center">Pedir</a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <button id="boton__ver-mas" class="btn btn-success p-2">VER MAS PRODUCTOS!</button>
+        </div>
+        
+      </div>
+    </div>
+  </article>
+  <!-- FIN PRODUCTO artículos mas nuevos -->
+
+
+</section>
+
+    <!-----------------------
+      FIN Contenido del CONTENT
+    ----------------------->
+
+
+    <!-----------------------
+      Contenido del FOOTER
+    ----------------------->
+    <footer class="container-fluid fondo__footer">
+      <div class="row">
+        
+        <div class="col-1 col-sm-5 col-lg-4 pt-lg-5 pt-5 pt-sm-2">
+          <p class="h6 text-center footer__info">Información:</p>
+          <ul class="footer__info ms-5">
+            <li><a href="../pages/contactanos.html" class="text-decoration-none text-black">Contactanos</a></li>
+            <li><a href="../pages/preguntas__frecuentes.html" class="text-decoration-none text-black">Preguntas Frecuentes</a></li>
+            <li><a href="../pages/about__us.html" class="text-decoration-none text-black">Quienes somos</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-5 col-sm-1 col-lg-4 p-3 d-flex justify-content-center">
+          <img id="footer__loguito" class="footer__loguito rounded-circle" src="../images/placeholder001.jpg" alt="">
+        </div>
+        
+        <div id="footer__redes" class="col-5 col-sm-5 col-lg-4 text-center pt-lg-5 pt-3 pt-sm-0 pt-sm-2">
+          <p class="h6 text-center">Redes Sociales</p>
+            <a href="https://www.facebook.com/artesaniasenlaser"><i class="m-3 iconos__redes fa-brands fa-square-facebook text-black"></i></a>
+            <a href="https://www.instagram.com/freddyfueguino/"><i class="m-3 iconos__redes fa-brands fa-instagram text-black"></i></a>
+            <a href="tel: +5493541400714"><i class="m-3 iconos__redes fa-brands fa-square-whatsapp text-black"></i></a>
+        </div>
+
+      </div>
+    </footer>
+  
+    <!-----------------------
+      FIN Contenido del FOOTER
+    ----------------------->
+
+    
+</body>
+</html>
